@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Photo App</title>
+</head>
+
+<body>
+  <header>
+    <h1>The Teslim's Ultimate Cat Photo App</h1>
+    <p>A purr-fect place for all things cats! Explore, learn, and celebrate these furry friends.</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About Cats</a></li>
+        <li><a href="#gallery">Cat Gallery</a></li>
+        <li><a href="#facts">Fun Facts</a></li>
+        <li><a href="#your-cat-story">Your Cat Story</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Cats</h2>
+      <p>Cats are independent, charming, and sometimes mischievous creatures. They bring us happiness, companionship,
+        and lots of purring moments! 😻</p>
+      <details>
+        <summary>Click here for a cute poem</summary>
+        <p>Soft little paws and a curious face,<br> Cats fill our lives with love and grace.<br> Chasing a ball or a
+          piece of string,<br> Cats make us appreciate the simple things.</p>
+      </details>
+    </section>
+
+    <section id="gallery">
+      <h2>Cat Gallery</h2>
+      <figure>
+        <img src="./cat 3.jpg" alt="A majestic orange tabby cat sitting">
+        <figcaption>A majestic orange tabby</figcaption>
+      </figure>
+      <figure>
+        <img src="./cat 1.jpg" alt="A fluffy kitten looking up">
+        <figcaption>A fluffier friend</figcaption>
+      </figure>
+      <figure>
+        <img src="./cat 2.jpg" alt="A sleepy black and white cat">
+        <figcaption>A sleepy superstar</figcaption>
+      </figure>
+    </section>
+
+    <section id="facts">
+      <h2>Fun Cat Facts</h2>
+      <ul>
+        <li>A group of cats is called a <strong>clowder</strong> 😻</li>
+        <li>A cat's purring can heal their own injuries</li>
+        <li>Cats sleep nearly 16 hours a day</li>
+        <li>The fastest cat, the cheetah, can reach speeds of 60mph</li>
+      </ul>
+    </section>
+
+    <section id="your-cat-story">
+      <h2>Share Your Cat Story</h2>
+      <form>
+        <label for="name">Your Name:</label>
+        <input id="name" name="name" type="text" placeholder="FluffMaster 5000">
+        <br>
+        <label for="story">Your Story:</label>
+        <textarea id="story" name="story" rows="4"
+          placeholder="Tell us a cute or funny story about your cat!"></textarea>
+        <br>
+        <input type="submit" value="Submit Your Story">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Ultimate Cat Photo App</p>
+    <div class="scrolling-text">
+      Cats are the best! Keep loving them! 
+    </div>
+    <style>
+      .scrolling-text {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: scroll-left 10s linear infinite alternate;
+        font-size: 1.2em;
+      }
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+    </style>
+  </footer>
+</body>
+
+</html>
